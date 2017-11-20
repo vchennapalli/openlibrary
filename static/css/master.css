@@ -1,3 +1,73 @@
+html {font-size: 1em;}
+
+body {
+    line-height: 1.45;
+    font-family: verdana;
+}
+
+p {
+    margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+    font-size: 2.441em;
+}
+
+h2 {
+    font-size: 1.953em;
+}
+
+h3 {
+    font-size: 1.563em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+.design-pattern-library {
+    margin: 15px;
+}
+
+article.design-pattern {
+    margin: 15px;
+}
+
+article.design-pattern section {
+    padding: 15px;
+    box-shadow: 0px 0px 3px 2px #ccc;
+    border-radius: 3px;
+}
+
+ul.color-swatch li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+ul.color-swatch li span.color-block {
+    width: 1em;
+    height: 1em;
+    display: block;
+    margin: 3px; 
+}
+
+.color-block-primary-cta { background-color: #3b99fc; }
+.color-block-background { background-color: #e2dcc5; }
+.color-block-link-clicked { background-color: #036; }
+.color-block-link-unclicked { background-color: #036daa; }
+
+
+
 table#editions {float:left;width:918px;clear:both;font-family:"Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;}
 table#editions th {
     font-family:"News Gothic MT","Trebuchet MS",Geneva,Helvetica,sans-serif;
@@ -663,7 +733,7 @@ table{border-collapse:collapse;border-spacing:0;}
 fieldset,img{border:0;}
 address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
 li{list-style:none;}
-caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+caption,th{text-align:left;}
 q:before,q:after{content:'';}
 abbr,acronym{border:0;font-variant:normal;}
 /*SET FONT SIZES AS em, DIVIDING YOUR PIXEL SIZE by 16 (i.e. 12px = 12/16 or 0.75em)*/
@@ -777,13 +847,11 @@ div.head {margin-bottom: 10px;margin-top: 20px;}
 div.head h1,div.head h2,div.head h3,div.head h4,div.head h5,div.head h6{margin:0;padding:0;}
 div.head.rel {position:relative;}
 div.superNav {font-size:0.6875em;font-family:"Lucida Grande", Verdana, Helvetica, Geneva, sans-serif;color:#666;margin-bottom:5px;}
-h1,h2,h3,h4,h5,h6 {font-family: "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;color:#00636a;font-weight:600;}
-h1 {font-size: 1.875em;}
+h1,h2,h3,h4,h5,h6 {font-family: "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;font-weight:600;}
 h1.title {font-size:1.25em;}
 h1 span.subtitle {font-size:0.65em;font-weight:normal;}
 #contentHead h1 {margin:0;padding:0;}
 h1.publisher {color: #615132;font-size:1.375em;font-family:Georgia,"Palatino Linotype", "Book Antiqua", Palatino, serif!important;font-weight:normal!important;margin:0;}
-h2 {font-size: 1.375em;}
 h2.author {color:#615132;font-size:1.125em;font-weight:normal;}
 h1.edition, h2.edition {color:#000;font-family:"Lucida Grande", Verdana, Helvetica, Geneva, sans-serif;font-size:1.125em;margin:0;padding:0;font-weight:normal;}
 h2.authorEdition {color:#615132;font-size:1em;font-weight:normal;margin:0;padding:0;}
@@ -794,8 +862,6 @@ h2.publisher {font-size:1.375em;background-color:#efefef;padding:10px;margin:15p
 
 h2 a {color:#036daa;text-decoration:none;}
 h2 a:hover{color:#35672e;text-decoration:underline;}
-h3 {font-size: 1.0em;}
-h4 {font-size: 0.8125em;}
 h4.publisher {font-family:"Lucida Grande", Verdana, Helvetica, Geneva, sans-serif;color:#000;margin:0;padding:0;font-weight:normal;}
 h5 {font-size: 0.875em;font-family:Georgia,"Palatino Linotype", "Book Antiqua", Palatino, serif!important;font-weight:normal!important;}
 h6 {font-size: 0.6875em;}
@@ -825,12 +891,10 @@ input[type=text],select,textarea{font-family:"Lucida Grande",Verdana,Geneva,Helv
 input[type=text]{margin: 0 10px 5px 0;}
 #contentBody input[type=submit]{font-size:1.125em;}
 p.instruct {
-    font-family: "Lucida Grande",Verdana,Geneva,Helvetica,sans-serif;
     font-size: 0.875em;
     margin-bottom:0;
 }
 p.alert {
-    font-family: "Lucida Grande",Verdana,Geneva,Helvetica,sans-serif;
     font-size: 0.875em;
     color: #615132;
     background-color: #fffdcd;
@@ -6525,7 +6589,8 @@ form#addAuthor.olform .wmd-preview {
     color: #333;
 }
 
-
 .responsive button.slick-prev:before, .slick-next:before {
     color: #fff;
 }
+
+
