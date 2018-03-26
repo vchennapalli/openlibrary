@@ -98,7 +98,7 @@ msgstr "ఇచ్చిన ఈమెయిలు చిరునామాతో 
 #: forms.py:26
 #, fuzzy
 msgid "Email already registered"
-msgstr "ఈమెయిలు ఇప్పటికే వాడబడింది"
+msgstr "ఈమెయిలు ఇప్పటికే నమోదు చెయ్యబడింది"
 
 #: forms.py:27
 msgid "Disposable email not permitted"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: forms.py:33
 msgid "Must be a valid email address"
-msgstr ""
+msgstr "చెల్లుబాటు అయ్యే ఈమెయిల్ చిరునామా ఉండాలి"
 
 #: forms.py:47 forms.py:100
 msgid "Your email address"
@@ -145,11 +145,11 @@ msgstr "ఒక సంకేతపదం ఎంచుకోండి"
 #: forms.py:57
 #, fuzzy
 msgid "Confirm password"
-msgstr "సంకేతపదము తప్పు"
+msgstr "సంకేతపదముని నిర్ధారించండి"
 
 #: forms.py:59
 msgid "Passwords didn't match."
-msgstr ""
+msgstr "సంకేతపదములు సరిపోలలేదు"
 
 #: forms.py:88
 msgid "Invalid password"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: edit.html:33
 msgid "Name"
-msgstr ""
+msgstr "పేరు"
 
 #: edit.html:35
 msgid ""
@@ -189,7 +189,7 @@ msgstr ""
 
 #: edit.html:50
 msgid "About"
-msgstr ""
+msgstr "గురించి"
 
 #: edit.html:51 edit.html:177
 msgid "Links"
@@ -207,11 +207,11 @@ msgstr ""
 
 #: edit.html:70
 msgid "Date of birth"
-msgstr ""
+msgstr "పుట్టిన తేది"
 
 #: edit.html:79
 msgid "Date of death"
-msgstr ""
+msgstr "మరణం యొక్క తేదీ"
 
 #: edit.html:88
 msgid ""
@@ -250,7 +250,7 @@ msgstr ""
 
 #: view.html:138
 msgid "Location"
-msgstr ""
+msgstr "స్థానం"
 
 #: view.html:237
 msgid "Alternative names"
@@ -258,7 +258,7 @@ msgstr ""
 
 #: books.html:14
 msgid "Reading Log"
-msgstr ""
+msgstr "ప్రత్యామ్నాయ పేర్లు"
 
 #: borrow.html:3 borrow.html:66
 msgid "Books You've Checked Out"
